@@ -296,7 +296,6 @@ void createScreen(char *buf, struct winsize window, struct editor_row row_list[]
 
 int main(void) {
 
-    //struct editor_row row_list[10000];
     struct winsize w;
     ioctl(STDOUT_FILENO, TIOCGWINSZ, &w);
 
