@@ -1,5 +1,22 @@
-# C-Text-Editor
-# By: Sadit Joarder
+# 📝 Terminal Text Editor (C, Linux)
 
-The text editor is meant to be used in a Linux-based environment. The program utilises standard C libraries along with Termios library to create a terminal text editor. Dynamic lists and buffers
-are used to print user input to the string. File created by the editor can be read and opened by other text editors such as nano. 
+A terminal-based text editor written in **C** for Linux environments.  
+This project was inspired by classic editors like `nano` and `vim`, but aims to provide a simple, minimal editing experience while learning about terminal handling, raw input, and file I/O in C. 
+The text editor uses termios to create a user interface. 
+
+---
+
+## 🚀 Features
+- Open and edit plain text files directly in the terminal.
+- Basic navigation with **arrow keys**.
+- Insert and delete text.
+- Save changes to disk.
+- Gracefully handles window resize events.
+- Lightweight: built from scratch in C using POSIX system calls.
+
+---
+
+## 🛠️ Future Works
+- Create a GUI with keys labelled with their functions
+- Integrate the text editor into the PATH environment
+- Undo tree
